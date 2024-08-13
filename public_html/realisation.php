@@ -26,6 +26,13 @@ include(__DIR__ . '/../config/bdd.php');
 </style>
 
 <head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8WRHJSJ');</script>
+<!-- End Google Tag Manager -->
 	<link href="./css/main.css" rel="stylesheet">
 
 
@@ -51,6 +58,10 @@ include(__DIR__ . '/../config/bdd.php');
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8WRHJSJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 	<header>
 		<?php include("nav.php");?>
 	</header>
@@ -61,7 +72,7 @@ include(__DIR__ . '/../config/bdd.php');
 	</section>
 
 	<section class="blanc rubrique">
-		<p>Au travers de nos nombreuses années d’activité, nous avons eu l’occasion de travailler sur des projets très diversifiés.</p>
+		<p>Fort de nos nombreuses années d’expérience, nous avons réalisé des projets variés dans le secteur de l'événementiel, répondant aux besoins spécifiques de chaque client.</p>
 	</section>
 
 	<section class="noir rubrique">

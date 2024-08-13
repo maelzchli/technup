@@ -49,6 +49,14 @@ include(__DIR__ . '/../config/bdd.php');
 	</style>
 
 	<head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8WRHJSJ');</script>
+<!-- End Google Tag Manager -->
+
 		<link href="./css/main.css" rel="stylesheet">
 
 
@@ -64,8 +72,8 @@ include(__DIR__ . '/../config/bdd.php');
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
-		<title>Techn'up - Prestation, intégration, location et vente de matériel audiovisuel</title>
-		<meta name="description" content="Au service de professionnels et particuliers, nous vous proposons la solution audiovisuelle et technique adaptée à votre projet. Grâce à notre parc matériel de 3 000 m² à la pointe de la technologie et à nos ateliers de serrurerie et menuiserie, nous faisons du sur-mesure pour répondre au mieux à vos demandes.">
+		<title>Techn'up - Votre prestataire technique à Paris et à l'international</title>
+		<meta name="description" content="Techn'up, votre prestataire technique pour événements à Paris et à l'international. Fort de plus de 30 ans d'expérience, nous offrons des solutions techniques sur mesure en son, éclairage, vidéo et distribution électrique. Garantissez le succès de vos projets événementiels grâce à nos équipes techniques.">
 		<meta name="keywords" content="agence, audiovisuel, ardeche, evenementiel, sonorisation, evenement, eclairage, video, communication">
 		<link rel="icon" type="image/png" href="img/favicon.webp">
 
@@ -77,6 +85,10 @@ include(__DIR__ . '/../config/bdd.php');
 	</head>
 
 	<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8WRHJSJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 		<?php include("loader.php")?>
 
 		<video id="background-video" autoplay loop muted>
@@ -93,12 +105,12 @@ include(__DIR__ . '/../config/bdd.php');
 				<div data-aos="zoom-in">
 					<h1>techn'<strong>up</strong></h1>
 				</div>
-				<p data-aos="zoom-in">Prestation, intégration, location et vente de matériel audiovisuel</p>
+				<h3 data-aos="zoom-in">Votre prestataire technique événementiel</h3>
 			</section>
 
 			<section class="blanc rubrique">
-				<p>Au service des professionnels et particuliers,  nous proposons des solutions audiovisuelles et techniques pour des événements et des intégrations.</p>
-				<p>Le son, l’éclairage et la vidéo pour vos showrooms, conférences, conventions, forums ou soirées sont notre spécialité.</p>
+				<p>Au service des professionnels et particuliers,  nous offrons des solutions techniques et audiovisuelles complètes pour vos événements ou intégrations.</p>
+				<p>Spécialisés dans le son, l’éclairage, et la vidéo, nous assurons la réussite de vos showrooms, conférences, conventions, forums, et soirées. En tant que prestataire technique événementiel, nous accompagnons vos projets avec expertise et savoir-faire.</p>
 			</section>
 
 			<section class="noir rubrique">
@@ -110,16 +122,16 @@ include(__DIR__ . '/../config/bdd.php');
 				</div>
 				<div class="grid">
 					<div class="grid-item1">
-						<p>Créée en 1986 par Jean-Paul Lenglet, Techn’up est née d’une passion à trouver des solutions techniques liées aux exigences des métiers du son, de l’éclairage, de la vidéo et de la distribution électrique. Nous avons su nous entourer d’équipes techniques compétentes pour mener à bien les projets qui nous sont confiés. Notre Société s’est développée pour devenir partenaire de nombreuses Agences de Communication issues du milieu de l’événementiel (Novateam, Remark, Team Work, Groupe Nicaro et bien d’autres).</p>
+						<p>Fondée en 1986 par Jean-Paul Lenglet, Techn’up est née d'une passion à élaborer des solutions techniques en son, éclairage, vidéo, et distribution électrique pour l'événementiel. Grâce à une équipe technique experte, nous réalisons des projets d'envergure pour des événements variés. Aujourd'hui, Techn’up est un partenaire privilégié de nombreuses agences de communication événementielle, telles que Novateam, WMH Project, Mythologies, et Groupe Nicaro.</p>
 					</div>			
 					<div class="grid-item2">
-						<img src="./img/lumiere.webp" alt="Projecteurs">	
+						<img src="./img/lumiere.webp" alt="Éclairage professionnel pour événements">	
 					</div>
 					<div class="grid-item3">
-						<img src="./img/mix.webp" alt="Projecteurs">	
+						<img src="./img/mix.webp" alt="Éclairage professionnel pour événements">	
 					</div>
 					<div class="grid-item4">
-						<p>Fort de plus de 30 ans d’expérience dans la prestation audiovisuelle, nous avons réalisé de nombreux projets en France et à l’international au service d'entreprises comme Peugeot, Engie ou la Commission Européenne. Nous mettons à profit notre expertise et notre professionnalisme pour vous proposer la solution qui correspond le mieux à votre projet. Réactifs et soucieux de nos clients, nous saurons répondre à vos besoins en alliant passion et technologie.</p>
+						<p>Fort de plus de 30 ans d’expérience dans la prestation audiovisuelle, nous avons mené à bien de nombreux projets en France et à l’international pour des événements d'entreprises telles que Peugeot, Engie, l'Agence Spatiale Européenne ou la Commission Européenne. Nous mettons notre expertise technique et notre professionnalisme au service de vos événements, en vous proposant des solutions personnalisées adaptées à vos besoins. Réactifs et à l'écoute, nous allions passion et technologie pour garantir la réussite de chacun de vos projets.</p>
 					</div>
 				</div>
 			</section>
@@ -168,7 +180,7 @@ include(__DIR__ . '/../config/bdd.php');
     						<div class="grid-realisations-element">
       						  <a href="fiche-realisationsaccueil.php?id=<?= $image['id']; ?>">
          					   <div class="bgn">
-         				    	   <img src="<?= $imageSrc; ?>" alt="Réalisations">
+         				    	   <img src="<?= $imageSrc; ?>" alt="Les projets sur lesquels nous travaillons">
          					   </div>
           					  <div class="nom-element bgn">
            					     <h3><?= $titre; ?></h3>	

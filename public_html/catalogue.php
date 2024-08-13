@@ -5,6 +5,13 @@ include(__DIR__ . '/../config/bdd.php');
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8WRHJSJ');</script>
+<!-- End Google Tag Manager -->
     <link href="./css/main.css" rel="stylesheet">
     <!--Animate on scroll bank-->
     <link href="./lib/aos-master/dist/aos.css" rel="stylesheet">
@@ -39,6 +46,10 @@ include(__DIR__ . '/../config/bdd.php');
     </style>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8WRHJSJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <header>
         <?php include("nav.php");?>
     </header>
@@ -49,8 +60,8 @@ include(__DIR__ . '/../config/bdd.php');
     </section>
 
     <section class="blanc rubrique">
-        <p>Afin d’être plus réactif sur le marché, nous possédons une unité de stockage de 3 000m2 située sur la commune de Grospierres (07120) ainsi qu’un bureau en région parisienne à Longjumeau (91160). En interne, 2 ateliers (Serrurerie et Menuiserie), permettent à nos techniciens de faire du « sur mesure » et d’adapter la demande client aux différents lieux et types de prestations.</p>
-        <p>En raison des nombreux articles de notre parc, le catalogue qui suit est à titre indicatif. Il n'inclut pas l'ensemble de notre parc matériel, mais seulement un échantillon.</p>
+        <p>Pour être plus réactifs sur le marché de l'événementiel, nous disposons d'une unité de stockage de 3 000 m² à Grospierres (07120) ainsi que d'un bureau à proximité de Paris, où se concentre 80% de notre activité. Nos ateliers internes de serrurerie et menuiserie nous permettent de créer des solutions sur mesure parfaitement adaptées aux exigences de chaque événements.</p>
+        <p>Le catalogue suivant présente un échantillon représentatif de notre parc matériel. En raison de l'étendue de notre offre, il ne répertorie pas l'intégralité de nos équipements.</p>
     </section>
 
     <section class="rubrique noir">
