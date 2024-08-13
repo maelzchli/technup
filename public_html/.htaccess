@@ -1,0 +1,24 @@
+# Page d'erreur personnalisée pour les erreurs 404
+ErrorDocument 404 https://techn-up.fr/404.php
+
+RewriteEngine On
+
+AddDefaultCharset UTF-8
+
+
+# Règle pour supprimer l'extension .php dans les URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Rediriger les anciennes URLs avec .php vers les nouvelles sans .php
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.php\s [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Exclure le dossier "config" de la réécriture des URLs
+RewriteCond %{REQUEST_URI} !^/config/
+
+# Réécrire les URLs pour les pages avec paramètres GET
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/([^/]+)/?$ $1.php?id=$2 [L]
