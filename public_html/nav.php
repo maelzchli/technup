@@ -24,7 +24,7 @@
   </div>
   <div class="network">
     <div class="socialnet">
-      <img src="./img/network.webp"> 
+      <img src="./img/network.webp" alt="Logo réseau"> 
     </div>   
   </button>  
 </nav>

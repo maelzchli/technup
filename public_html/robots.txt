@@ -1,9 +1,9 @@
 User-agent: *
 Disallow: /404.php
-Disallow: /bdd.php
 Allow: /catalogue.php
 Disallow: /connexion.php
 Allow: /contact.php
+Disallow: /download-rcfg.php
 Disallow: /espaceadmin.php
 Disallow: /fiche-nouveautes.php
 Allow: /fiche-produit.php
@@ -14,10 +14,6 @@ Allow: /index.php
 Disallow: /loader.php
 Disallow: /logout.php
 Disallow: /mentionslegales.php
-Disallow: /modifier-nouveaute.php
-Disallow: /modifier-produit.php
-Disallow: /modifier-realisation-accueil.php
-Disallow: /modifier-realisation.php
 Disallow: /nav-admin.php
 Disallow: /nav.php
 Disallow: /newsletter.php
@@ -25,8 +21,8 @@ Disallow: /publier-nouveaute.php
 Disallow: /publier-produit.php
 Disallow: /publier-realisation-accueil.php
 Disallow: /publier-realisation.php
+Disallow: /rcfg.php
 Allow: /realisation.php
-Disallow: /supprimer-nouveaute.php
 Disallow: /supprimer-produit.php
-Disallow: /supprimer-realisation-accueil.php
 Disallow: /supprimer-realisation.php
+Sitemap: https://www.techn-up.fr/sitemap.xml
