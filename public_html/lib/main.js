@@ -1,29 +1,30 @@
 $('.caroussel').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 1000,
-  responsive: [
-  {
-    breakpoint: 1400,
-    settings: {
-      arrows: false,
-      centerMode: true,
-      centerPadding: '40px',
-      slidesToShow: 2
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    responsive: [
+    {
+      breakpoint: 1400,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      } 
     }
-  },
-  {
-    breakpoint: 992,
-    settings: {
-      arrows: false,
-      centerMode: true,
-      centerPadding: '40px',
-      slidesToShow: 1
-    } 
-  }
-  ]
-});
+    ]
+  });
+
 
   const buttonsTwo = document.querySelectorAll('.button');
   const buttons = document.querySelectorAll('button');
