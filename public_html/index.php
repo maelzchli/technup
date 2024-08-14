@@ -45,6 +45,7 @@ include(__DIR__ . '/../config/bdd.php');
 
 
 		}
+	}
 
 	</style>
 
@@ -59,7 +60,7 @@ include(__DIR__ . '/../config/bdd.php');
 
 		<!--Caroussel-->
 		<link rel="stylesheet" type="text/css" href="./lib/slick/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="./lib/slick/slick/slick-theme.css" async/>
+		<link rel="stylesheet" type="text/css" href="./lib/slick/slick/slick-theme.css"/>
 
 
 
@@ -71,7 +72,7 @@ include(__DIR__ . '/../config/bdd.php');
 		<link rel="icon" type="image/png" href="img/favicon.webp">
 
 
-		<script src="./lib/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" async></script>
+		<script src="./lib/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 		
 		<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b6f8a7659a2123b759a294777/239290aa04ef705109968c50b.js");</script>
 
