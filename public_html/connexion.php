@@ -1,10 +1,19 @@
 <?php 
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Dotenv\Dotenv;
+
 session_start();
+
+$dotenv = Dotenv::createImmutable(__DIR__ . '/..');
+$dotenv->load();
+
 
 if(isset($_POST['valider'])){
     if(!empty($_POST['identifiant']) AND !empty($_POST['mdp'])){
-        $identifiant_par_defaut = "admintechnup";
-        $mdp_hache_par_defaut = '$2y$10$XduPDp7.7By7YhbgJ5vkgeANY71me1aAZ9a4ah8WuOIErRYd6dyJi';
+        $identifiant_par_defaut = $_ENV['USER_ADMIN'];
+        $mdp_hache_par_defaut = $_ENV['PASSWORD_ADMIN'];
         $identifiant_saisi = htmlspecialchars($_POST['identifiant']);
         $mdp_saisi = htmlspecialchars($_POST['mdp']);
 
