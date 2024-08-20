@@ -50,6 +50,10 @@
         <a href="./politique-de-confidentialite-rgpd.pdf">
             <p>Politique de confidentialité</p>
         </a>
+        <br/>
+        <a href="./outils.php">
+            <p>Outils techniques</p>
+        </a>
     </div> 
 </div>
 <div class="copyright">
