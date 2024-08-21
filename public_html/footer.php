@@ -29,7 +29,7 @@
         <h6>Nous suivre</h6>
         <br/>
         <a href="https://www.linkedin.com/company/techn-up/" target="_blank">
-            <p>Linkedin</p>
+            <p>LinkedIn</p>
         </a>
         <br/>
         <a href="https://www.facebook.com/technup/" target="_blank">
